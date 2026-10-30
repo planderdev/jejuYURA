@@ -1,0 +1,1526 @@
+{
+  "survey": "consumer",
+  "source": "jejuyeora-forms.gs",
+  "languages": [
+    "en",
+    "zh",
+    "ja",
+    "ko"
+  ],
+  "languageNames": {
+    "en": "English",
+    "zh": "中文（简体）",
+    "ja": "日本語",
+    "ko": "한국어"
+  },
+  "title": {
+    "en": "Jeju Travel Survey",
+    "zh": "济州旅行问卷",
+    "ja": "済州旅行アンケート",
+    "ko": "제주 여행 설문"
+  },
+  "confirmation": {
+    "en": "Thank you. Your response has been submitted.",
+    "zh": "感谢您的参与，问卷已提交。",
+    "ja": "ご協力ありがとうございました。回答が送信されました。",
+    "ko": "감사합니다. 응답이 제출되었습니다."
+  },
+  "intro": {
+    "title": {
+      "en": "About this survey",
+      "zh": "问卷说明",
+      "ja": "アンケートのご案内",
+      "ko": "설문 안내"
+    },
+    "body": {
+      "en": "Hello! This survey helps us build a service that makes it easier to find restaurants, cafes, hidden spots and local products while traveling in Jeju. It takes about 10 minutes. Your answers are used only for statistics and will not identify you.",
+      "zh": "您好！本问卷旨在打造一款帮助游客在济州旅行中更方便地找到美食、咖啡馆、小众景点和本地特产信息的服务。填写约需10分钟。您的回答仅用于统计分析，不会识别个人身份。",
+      "ja": "こんにちは。本アンケートは、済州旅行中にグルメ、カフェ、穴場スポット、ローカル商品の情報をより簡単に見つけられるサービスを作るための調査です。回答には約10分かかります。回答は統計目的にのみ使用され、個人を特定することはありません。",
+      "ko": "안녕하세요. 이 설문은 제주 여행 중 맛집, 카페, 히든스팟, 로컬상품 정보를 더 쉽게 찾을 수 있는 서비스를 만들기 위한 조사입니다. 응답에는 약 10분이 걸립니다. 응답은 통계 목적으로만 쓰이며 개인을 식별하지 않습니다."
+    }
+  },
+  "privacy": {
+    "title": {
+      "en": "I agree to the collection and use of my personal information.",
+      "zh": "我同意收集和使用个人信息。",
+      "ja": "個人情報の収集および利用に同意します。",
+      "ko": "개인정보 수집 및 이용에 동의합니다."
+    },
+    "help": {
+      "en": "1. Information collected: your survey answers (nationality, age group, gender, travel details, etc.)\n2. Purpose: statistical analysis to improve travel services in Jeju\n3. Retention period: deleted without delay when the survey ends.\n4. Right to refuse: you may refuse, but then you cannot take part in the survey.",
+      "zh": "1. 收集项目：问卷回答内容（国籍、年龄段、性别、旅行信息等）\n2. 收集目的：为改进济州旅行服务进行统计分析\n3. 保存及使用期限：调查结束后立即销毁。\n4. 拒绝同意的权利：您可以拒绝同意，但拒绝后将无法参与本问卷。",
+      "ja": "1. 収集項目：アンケートの回答内容（国籍、年代、性別、旅行情報など）\n2. 収集目的：済州旅行サービス改善のための統計分析\n3. 保有および利用期間：調査終了後、速やかに破棄します。\n4. 同意を拒否する権利：同意を拒否することができますが、拒否した場合はアンケートに参加できません。",
+      "ko": "1. 수집 항목: 설문 응답 내용(국적, 연령대, 성별, 여행 정보 등)\n2. 수집 목적: 제주 여행 서비스 개선을 위한 통계 분석\n3. 보유 및 이용 기간: 조사가 끝나면 지체 없이 파기합니다.\n4. 동의를 거부할 권리: 동의를 거부할 수 있으며, 거부하면 설문에 참여할 수 없습니다."
+    },
+    "agree": {
+      "en": "I agree",
+      "zh": "同意",
+      "ja": "同意します",
+      "ko": "동의합니다"
+    },
+    "disagree": {
+      "en": "I do not agree",
+      "zh": "不同意",
+      "ja": "同意しません",
+      "ko": "동의하지 않습니다"
+    }
+  },
+  "sections": [
+    {
+      "index": 1,
+      "title": {
+        "en": "1. About you",
+        "zh": "1. 关于您",
+        "ja": "1. あなたについて",
+        "ko": "1. 응답자 정보"
+      },
+      "description": null,
+      "questions": [
+        {
+          "code": "Q1",
+          "type": "mc",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "What is your nationality?",
+            "zh": "请选择您的国籍或地区。",
+            "ja": "国籍を選んでください。",
+            "ko": "국적을 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Mainland China",
+              "Hong Kong",
+              "Macau",
+              "Taiwan",
+              "Japan",
+              "USA",
+              "UK",
+              "Australia",
+              "Canada",
+              "Singapore",
+              "Malaysia",
+              "Korea"
+            ],
+            "zh": [
+              "中国大陆",
+              "香港",
+              "澳门",
+              "台湾",
+              "日本",
+              "美国",
+              "英国",
+              "澳大利亚",
+              "加拿大",
+              "新加坡",
+              "马来西亚",
+              "韩国"
+            ],
+            "ja": [
+              "中国本土",
+              "香港",
+              "マカオ",
+              "台湾",
+              "日本",
+              "アメリカ",
+              "イギリス",
+              "オーストラリア",
+              "カナダ",
+              "シンガポール",
+              "マレーシア",
+              "韓国"
+            ],
+            "ko": [
+              "중국 본토",
+              "홍콩",
+              "마카오",
+              "대만",
+              "일본",
+              "미국",
+              "영국",
+              "호주",
+              "캐나다",
+              "싱가포르",
+              "말레이시아",
+              "한국"
+            ]
+          }
+        },
+        {
+          "code": "Q2",
+          "type": "mc",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "What is your age group?",
+            "zh": "您的年龄段是？",
+            "ja": "年代を選んでください。",
+            "ko": "연령대를 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Under 20",
+              "20s",
+              "30s",
+              "40s",
+              "50s",
+              "60 or older"
+            ],
+            "zh": [
+              "20岁以下",
+              "20多岁",
+              "30多岁",
+              "40多岁",
+              "50多岁",
+              "60岁及以上"
+            ],
+            "ja": [
+              "20歳未満",
+              "20代",
+              "30代",
+              "40代",
+              "50代",
+              "60歳以上"
+            ],
+            "ko": [
+              "20세 미만",
+              "20대",
+              "30대",
+              "40대",
+              "50대",
+              "60세 이상"
+            ]
+          }
+        },
+        {
+          "code": "Q3",
+          "type": "mc",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "What is your gender?",
+            "zh": "您的性别是？",
+            "ja": "性別を選んでください。",
+            "ko": "성별을 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Male",
+              "Female",
+              "Prefer not to say"
+            ],
+            "zh": [
+              "男",
+              "女",
+              "不愿透露"
+            ],
+            "ja": [
+              "男性",
+              "女性",
+              "回答しない"
+            ],
+            "ko": [
+              "남성",
+              "여성",
+              "응답하지 않음"
+            ]
+          }
+        },
+        {
+          "code": "Q4",
+          "type": "mc",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "Who are you traveling with?",
+            "zh": "这次旅行您和谁一起？",
+            "ja": "今回の旅行は誰と来ましたか。",
+            "ko": "이번 여행은 누구와 함께 왔습니까?"
+          },
+          "options": {
+            "en": [
+              "Alone",
+              "Partner or spouse",
+              "Family with children",
+              "Family without children",
+              "Friends",
+              "Tour group"
+            ],
+            "zh": [
+              "独自一人",
+              "情侣或配偶",
+              "家庭（带孩子）",
+              "家庭（不带孩子）",
+              "朋友",
+              "跟团"
+            ],
+            "ja": [
+              "一人",
+              "恋人または配偶者",
+              "家族（子ども連れ）",
+              "家族（子どもなし）",
+              "友人",
+              "団体ツアー"
+            ],
+            "ko": [
+              "혼자",
+              "연인 또는 배우자",
+              "가족(아이 동반)",
+              "가족(아이 없음)",
+              "친구",
+              "단체 여행"
+            ]
+          }
+        },
+        {
+          "code": "Q5",
+          "type": "mc",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "How many nights are you staying in Jeju?",
+            "zh": "您在济州停留几晚？",
+            "ja": "済州には何泊しますか。",
+            "ko": "제주에 며칠 머무릅니까?"
+          },
+          "options": {
+            "en": [
+              "Day trip",
+              "1 night",
+              "2 nights",
+              "3 nights",
+              "4 nights or more"
+            ],
+            "zh": [
+              "当天往返",
+              "1晚",
+              "2晚",
+              "3晚",
+              "4晚及以上"
+            ],
+            "ja": [
+              "日帰り",
+              "1泊",
+              "2泊",
+              "3泊",
+              "4泊以上"
+            ],
+            "ko": [
+              "당일",
+              "1박",
+              "2박",
+              "3박",
+              "4박 이상"
+            ]
+          }
+        },
+        {
+          "code": "Q6",
+          "type": "mc",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "How did you arrive in Jeju?",
+            "zh": "您是如何来到济州的？",
+            "ja": "済州へはどのように来ましたか。",
+            "ko": "제주에는 어떻게 왔습니까?"
+          },
+          "options": {
+            "en": [
+              "Direct international flight to Jeju",
+              "Domestic flight via another Korean city",
+              "Cruise ship",
+              "Ferry"
+            ],
+            "zh": [
+              "国际航班直飞济州",
+              "经韩国其他城市转国内航班",
+              "邮轮",
+              "客轮"
+            ],
+            "ja": [
+              "済州への国際線直行便",
+              "韓国の他都市経由の国内線",
+              "クルーズ船",
+              "フェリー"
+            ],
+            "ko": [
+              "제주공항 국제선 직항",
+              "한국 다른 도시를 거쳐 국내선",
+              "크루즈",
+              "여객선"
+            ]
+          }
+        },
+        {
+          "code": "Q7",
+          "type": "mc",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "How many times have you visited Jeju?",
+            "zh": "这是您第几次来济州？",
+            "ja": "済州への訪問は何回目ですか。",
+            "ko": "제주 방문은 몇 번째입니까?"
+          },
+          "options": {
+            "en": [
+              "First time",
+              "Second time",
+              "Three times or more"
+            ],
+            "zh": [
+              "第一次",
+              "第二次",
+              "三次及以上"
+            ],
+            "ja": [
+              "初めて",
+              "2回目",
+              "3回目以上"
+            ],
+            "ko": [
+              "처음",
+              "두 번째",
+              "세 번째 이상"
+            ]
+          }
+        },
+        {
+          "code": "Q8",
+          "type": "cb",
+          "required": true,
+          "other": false,
+          "max": 3,
+          "text": {
+            "en": "Choose up to 3 main purposes of this trip to Jeju.",
+            "zh": "请选择这次济州旅行的主要目的（最多3项）。",
+            "ja": "今回の済州旅行の主な目的を最大3つまで選んでください。",
+            "ko": "이번 제주 여행의 주요 목적을 최대 3개까지 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Food",
+              "Cafes",
+              "Nature and scenery",
+              "Shopping",
+              "Photo spots",
+              "Activities and experiences",
+              "Relaxation"
+            ],
+            "zh": [
+              "美食",
+              "咖啡馆",
+              "自然风光",
+              "购物",
+              "拍照打卡",
+              "体验活动",
+              "休闲度假"
+            ],
+            "ja": [
+              "グルメ",
+              "カフェ",
+              "自然景観",
+              "ショッピング",
+              "写真映えスポット",
+              "体験アクティビティ",
+              "休養"
+            ],
+            "ko": [
+              "맛집",
+              "카페",
+              "자연 경관",
+              "쇼핑",
+              "사진 명소",
+              "체험 활동",
+              "휴양"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": {
+        "en": "2. Finding information",
+        "zh": "2. 信息获取",
+        "ja": "2. 情報収集",
+        "ko": "2. 정보 탐색"
+      },
+      "description": null,
+      "questions": [
+        {
+          "code": "Q9",
+          "type": "cb",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "Which channels did you use to find information about Jeju before your trip? Choose all that apply.",
+            "zh": "出发前您通过哪些渠道查找济州信息？（可多选）",
+            "ja": "旅行前に済州の情報を探すときに使ったチャネルをすべて選んでください。",
+            "ko": "여행 전에 제주 정보를 찾을 때 쓴 채널을 모두 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Xiaohongshu (RED)",
+              "Douyin",
+              "WeChat",
+              "Instagram",
+              "YouTube",
+              "TikTok",
+              "Google Search or Google Maps",
+              "Naver Map",
+              "KakaoMap",
+              "Tripadvisor",
+              "Travel agency or guide",
+              "Blogs",
+              "Friends or family"
+            ],
+            "zh": [
+              "小红书",
+              "抖音",
+              "微信",
+              "Instagram",
+              "YouTube",
+              "TikTok",
+              "谷歌搜索或谷歌地图",
+              "Naver地图",
+              "Kakao地图",
+              "猫途鹰（Tripadvisor）",
+              "旅行社或导游",
+              "博客",
+              "亲友推荐"
+            ],
+            "ja": [
+              "小紅書（RED）",
+              "抖音（Douyin）",
+              "WeChat",
+              "Instagram",
+              "YouTube",
+              "TikTok",
+              "Google検索またはGoogleマップ",
+              "NAVER地図",
+              "カカオマップ",
+              "トリップアドバイザー",
+              "旅行会社またはガイド",
+              "ブログ",
+              "知人の紹介"
+            ],
+            "ko": [
+              "샤오홍슈",
+              "더우인",
+              "위챗",
+              "인스타그램",
+              "유튜브",
+              "틱톡",
+              "구글 검색이나 구글 지도",
+              "네이버 지도",
+              "카카오맵",
+              "트립어드바이저",
+              "여행사나 가이드",
+              "블로그",
+              "지인 추천"
+            ]
+          }
+        },
+        {
+          "code": "Q10",
+          "type": "list",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "Which one app or channel do you use most during your trip?",
+            "zh": "旅行中您最常用的一个App或渠道是？",
+            "ja": "旅行中に最もよく使うアプリやチャネルを1つ選んでください。",
+            "ko": "여행 중에 가장 많이 쓰는 앱이나 채널 하나를 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Xiaohongshu (RED)",
+              "Douyin",
+              "WeChat",
+              "Instagram",
+              "YouTube",
+              "TikTok",
+              "Google Search or Google Maps",
+              "Naver Map",
+              "KakaoMap",
+              "Tripadvisor",
+              "Travel agency or guide",
+              "Blogs",
+              "Friends or family"
+            ],
+            "zh": [
+              "小红书",
+              "抖音",
+              "微信",
+              "Instagram",
+              "YouTube",
+              "TikTok",
+              "谷歌搜索或谷歌地图",
+              "Naver地图",
+              "Kakao地图",
+              "猫途鹰（Tripadvisor）",
+              "旅行社或导游",
+              "博客",
+              "亲友推荐"
+            ],
+            "ja": [
+              "小紅書（RED）",
+              "抖音（Douyin）",
+              "WeChat",
+              "Instagram",
+              "YouTube",
+              "TikTok",
+              "Google検索またはGoogleマップ",
+              "NAVER地図",
+              "カカオマップ",
+              "トリップアドバイザー",
+              "旅行会社またはガイド",
+              "ブログ",
+              "知人の紹介"
+            ],
+            "ko": [
+              "샤오홍슈",
+              "더우인",
+              "위챗",
+              "인스타그램",
+              "유튜브",
+              "틱톡",
+              "구글 검색이나 구글 지도",
+              "네이버 지도",
+              "카카오맵",
+              "트립어드바이저",
+              "여행사나 가이드",
+              "블로그",
+              "지인 추천"
+            ]
+          }
+        },
+        {
+          "code": "Q11",
+          "type": "mc",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "When choosing a place, which information do you trust most?",
+            "zh": "选择地点时，您最信任哪类信息？",
+            "ja": "場所を選ぶとき、最も信頼する情報は何ですか。",
+            "ko": "장소를 고를 때 가장 믿는 정보는 무엇입니까?"
+          },
+          "options": {
+            "en": [
+              "Reviews by travelers from my country",
+              "Recommendations from local Koreans",
+              "Ratings on map apps",
+              "Influencer content",
+              "Travel agency or guide",
+              "Official tourism websites"
+            ],
+            "zh": [
+              "同国游客的评价",
+              "韩国当地人的推荐",
+              "地图应用评分",
+              "网红博主内容",
+              "旅行社或导游",
+              "官方旅游网站"
+            ],
+            "ja": [
+              "同じ国の旅行者の口コミ",
+              "地元の韓国人のおすすめ",
+              "地図アプリの評価",
+              "インフルエンサーのコンテンツ",
+              "旅行会社またはガイド",
+              "公式観光サイト"
+            ],
+            "ko": [
+              "같은 나라 여행자의 후기",
+              "현지 한국인의 추천",
+              "지도 앱 평점",
+              "인플루언서 콘텐츠",
+              "여행사나 가이드",
+              "공식 관광 사이트"
+            ]
+          }
+        },
+        {
+          "code": "Q12",
+          "type": "cb",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "What difficulties did you have finding information in Jeju? Choose all that apply.",
+            "zh": "在济州查找信息时，您遇到过哪些困难？（可多选）",
+            "ja": "済州で情報を探すときに困ったことをすべて選んでください。",
+            "ko": "제주에서 정보를 찾을 때 겪은 어려움을 모두 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Not enough information in my language",
+              "Opening hours or closing days are wrong",
+              "Cannot tell if Alipay or WeChat Pay is accepted",
+              "Hard to find the location",
+              "Too many sponsored reviews",
+              "Hard to make reservations",
+              "No particular difficulty"
+            ],
+            "zh": [
+              "缺少我的语言的信息",
+              "营业时间或休息日信息不准确",
+              "无法确认能否使用支付宝或微信支付",
+              "难以找到位置",
+              "广告性质的评价太多",
+              "难以预约",
+              "没有特别的困难"
+            ],
+            "ja": [
+              "自分の言語の情報が少ない",
+              "営業時間や定休日の情報が正しくない",
+              "AlipayやWeChat Payが使えるか分からない",
+              "場所を見つけにくい",
+              "広告的な口コミが多い",
+              "予約しにくい",
+              "特にない"
+            ],
+            "ko": [
+              "내 언어로 된 정보가 부족하다",
+              "영업시간이나 휴무일 정보가 틀리다",
+              "알리페이나 위챗페이 가능 여부를 알 수 없다",
+              "위치를 찾기 어렵다",
+              "광고성 후기가 많다",
+              "예약하기 어렵다",
+              "특별히 없다"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": {
+        "en": "3. Food preferences",
+        "zh": "3. 饮食偏好",
+        "ja": "3. 食の好み",
+        "ko": "3. 음식 취향"
+      },
+      "description": null,
+      "questions": [
+        {
+          "code": "Q13",
+          "type": "cb",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "What food do you want to eat in Jeju? Choose all that apply.",
+            "zh": "您在济州想吃哪些食物？（可多选）",
+            "ja": "済州で食べたいものをすべて選んでください。",
+            "ko": "제주에서 먹고 싶은 음식을 모두 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Seafood",
+              "Black pork",
+              "Korean set meals",
+              "Noodles and snacks",
+              "Vegetarian dishes",
+              "Desserts and cafes",
+              "Market street food",
+              "Bars and late night food"
+            ],
+            "zh": [
+              "海鲜",
+              "黑猪肉",
+              "韩式套餐",
+              "面食和小吃",
+              "素食",
+              "甜点和咖啡",
+              "市场小吃",
+              "酒吧和夜宵"
+            ],
+            "ja": [
+              "海鮮",
+              "黒豚",
+              "韓定食",
+              "麺類と軽食",
+              "ベジタリアン料理",
+              "デザートとカフェ",
+              "市場グルメ",
+              "居酒屋と夜食"
+            ],
+            "ko": [
+              "해산물",
+              "흑돼지",
+              "한식 정식",
+              "국수와 분식",
+              "채식 메뉴",
+              "디저트와 카페",
+              "시장 먹거리",
+              "술집과 야식"
+            ]
+          }
+        },
+        {
+          "code": "Q14",
+          "type": "cb",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "Do you have any allergies or dietary restrictions? Choose all that apply.",
+            "zh": "您是否有过敏或饮食限制？（可多选）",
+            "ja": "アレルギーや食事制限があればすべて選んでください。",
+            "ko": "알레르기나 식사 제한이 있다면 모두 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "None",
+              "Seafood allergy",
+              "Shellfish allergy",
+              "Nut allergy",
+              "Vegetarian or vegan",
+              "Halal only",
+              "No pork",
+              "Cannot eat spicy food"
+            ],
+            "zh": [
+              "无",
+              "海鲜过敏",
+              "甲壳类过敏",
+              "坚果过敏",
+              "素食（含纯素）",
+              "只吃清真食品",
+              "不吃猪肉",
+              "不能吃辣"
+            ],
+            "ja": [
+              "なし",
+              "魚介類アレルギー",
+              "甲殻類アレルギー",
+              "ナッツアレルギー",
+              "ベジタリアン（ヴィーガンを含む）",
+              "ハラール食のみ",
+              "豚肉を食べない",
+              "辛い料理が苦手"
+            ],
+            "ko": [
+              "없음",
+              "해산물 알레르기",
+              "갑각류 알레르기",
+              "견과류 알레르기",
+              "채식(비건 포함)",
+              "할랄 음식만 먹음",
+              "돼지고기를 먹지 않음",
+              "매운 음식을 못 먹음"
+            ]
+          }
+        },
+        {
+          "code": "Q15",
+          "type": "mc",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "How much do you usually spend per person on one meal?",
+            "zh": "每餐人均通常花费多少？",
+            "ja": "1食あたり1人いくらくらい使いますか。",
+            "ko": "한 끼 식사에 1인당 보통 얼마를 씁니까?"
+          },
+          "options": {
+            "en": [
+              "Under 10,000 KRW",
+              "10,000 to 20,000 KRW",
+              "20,000 to 40,000 KRW",
+              "Over 40,000 KRW"
+            ],
+            "zh": [
+              "1万韩元以下",
+              "1万至2万韩元",
+              "2万至4万韩元",
+              "4万韩元以上"
+            ],
+            "ja": [
+              "1万ウォン未満",
+              "1万ウォン以上2万ウォン未満",
+              "2万ウォン以上4万ウォン未満",
+              "4万ウォン以上"
+            ],
+            "ko": [
+              "1만원 미만",
+              "1만원 이상 2만원 미만",
+              "2만원 이상 4만원 미만",
+              "4만원 이상"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": {
+        "en": "4. Choosing a place",
+        "zh": "4. 选择地点的标准",
+        "ja": "4. 場所選びの基準",
+        "ko": "4. 장소 선택 기준"
+      },
+      "description": null,
+      "questions": [
+        {
+          "code": "Q16",
+          "type": "grid",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "When choosing a restaurant, cafe or attraction, how important is each item?",
+            "zh": "选择餐厅、咖啡馆或景点时，以下各项有多重要？",
+            "ja": "レストラン、カフェ、観光地を選ぶとき、次の項目はどのくらい重要ですか。",
+            "ko": "식당, 카페, 관광지를 고를 때 아래 항목이 얼마나 중요합니까?"
+          },
+          "rows": {
+            "en": [
+              "Review rating",
+              "Distance from where I am",
+              "Open right now",
+              "Menu or information in my language",
+              "Accepts Alipay or WeChat Pay",
+              "Good for photos",
+              "Price",
+              "Recommended by travelers from my country",
+              "Can be reserved"
+            ],
+            "zh": [
+              "评价评分",
+              "与当前位置的距离",
+              "现在是否营业",
+              "外语菜单或说明",
+              "可使用支付宝或微信支付",
+              "适合拍照",
+              "价格",
+              "同国游客的推荐",
+              "能否预约"
+            ],
+            "ja": [
+              "口コミ評価",
+              "現在地からの距離",
+              "今営業しているか",
+              "外国語メニューや案内",
+              "AlipayやWeChat Payが使える",
+              "写真映えする",
+              "価格",
+              "同じ国の旅行者のおすすめ",
+              "予約できるか"
+            ],
+            "ko": [
+              "리뷰 평점",
+              "현재 위치에서의 거리",
+              "지금 영업 중인지",
+              "외국어 메뉴나 안내",
+              "알리페이나 위챗페이 결제 가능",
+              "사진이 잘 나오는 곳",
+              "가격",
+              "같은 나라 여행자의 추천",
+              "예약 가능 여부"
+            ]
+          },
+          "cols": {
+            "en": [
+              "1 Not important at all",
+              "2",
+              "3",
+              "4",
+              "5 Very important"
+            ],
+            "zh": [
+              "1 完全不重要",
+              "2",
+              "3",
+              "4",
+              "5 非常重要"
+            ],
+            "ja": [
+              "1 全く重要でない",
+              "2",
+              "3",
+              "4",
+              "5 非常に重要"
+            ],
+            "ko": [
+              "1 전혀 중요하지 않음",
+              "2",
+              "3",
+              "4",
+              "5 매우 중요함"
+            ]
+          }
+        },
+        {
+          "code": "Q17",
+          "type": "mc",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "Which one of these is the most important to you?",
+            "zh": "以上各项中，最重要的是哪一项？",
+            "ja": "上の項目のうち、最も重要なものを1つ選んでください。",
+            "ko": "위 항목 중 가장 중요한 하나를 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Review rating",
+              "Distance from where I am",
+              "Open right now",
+              "Menu or information in my language",
+              "Accepts Alipay or WeChat Pay",
+              "Good for photos",
+              "Price",
+              "Recommended by travelers from my country",
+              "Can be reserved"
+            ],
+            "zh": [
+              "评价评分",
+              "与当前位置的距离",
+              "现在是否营业",
+              "外语菜单或说明",
+              "可使用支付宝或微信支付",
+              "适合拍照",
+              "价格",
+              "同国游客的推荐",
+              "能否预约"
+            ],
+            "ja": [
+              "口コミ評価",
+              "現在地からの距離",
+              "今営業しているか",
+              "外国語メニューや案内",
+              "AlipayやWeChat Payが使える",
+              "写真映えする",
+              "価格",
+              "同じ国の旅行者のおすすめ",
+              "予約できるか"
+            ],
+            "ko": [
+              "리뷰 평점",
+              "현재 위치에서의 거리",
+              "지금 영업 중인지",
+              "외국어 메뉴나 안내",
+              "알리페이나 위챗페이 결제 가능",
+              "사진이 잘 나오는 곳",
+              "가격",
+              "같은 나라 여행자의 추천",
+              "예약 가능 여부"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": {
+        "en": "5. Hidden spots",
+        "zh": "5. 小众景点",
+        "ja": "5. 穴場スポット",
+        "ko": "5. 히든스팟"
+      },
+      "description": {
+        "en": "A hidden spot is a place that most tourists do not know about.",
+        "zh": "小众景点是指不太为游客所知的地方。",
+        "ja": "穴場スポットとは、観光客にあまり知られていない場所のことです。",
+        "ko": "히든스팟은 관광객에게 잘 알려지지 않은 장소를 말합니다."
+      },
+      "questions": [
+        {
+          "code": "Q18",
+          "type": "mc",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "Have you visited a hidden spot on this trip?",
+            "zh": "这次旅行中，您去过小众景点吗？",
+            "ja": "今回の旅行で穴場スポットに行きましたか。",
+            "ko": "이번 여행에서 히든스팟에 가 본 적이 있습니까?"
+          },
+          "options": {
+            "en": [
+              "Yes",
+              "No"
+            ],
+            "zh": [
+              "是",
+              "否"
+            ],
+            "ja": [
+              "はい",
+              "いいえ"
+            ],
+            "ko": [
+              "예",
+              "아니오"
+            ]
+          }
+        },
+        {
+          "code": "Q19",
+          "type": "scale",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "Would you share a place you found by posting it with photos in an app?",
+            "zh": "您是否愿意把自己发现的地方连同照片上传到App，与其他游客分享？",
+            "ja": "自分で見つけた場所を写真と一緒にアプリに登録し、他の旅行者と共有したいですか。",
+            "ko": "직접 찾은 장소를 사진과 함께 앱에 등록해 다른 여행자와 나눌 의향이 있습니까?"
+          },
+          "scale": {
+            "min": 1,
+            "max": 5,
+            "lo": {
+              "en": "Not at all",
+              "zh": "完全不愿意",
+              "ja": "全く思わない",
+              "ko": "전혀 없다"
+            },
+            "hi": {
+              "en": "Very much",
+              "zh": "非常愿意",
+              "ja": "とてもそう思う",
+              "ko": "매우 많다"
+            }
+          }
+        },
+        {
+          "code": "Q20",
+          "type": "cb",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "What makes you trust a place posted by someone else? Choose all that apply.",
+            "zh": "在什么情况下您会相信别人上传的地点信息？（可多选）",
+            "ja": "他の人が投稿した場所の情報を信頼できる条件をすべて選んでください。",
+            "ko": "다른 사람이 올린 장소 정보를 믿게 되는 조건을 모두 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Real visit photos",
+              "Location verified by GPS",
+              "Reviews from travelers from my country",
+              "Checked by the operator",
+              "Recently posted",
+              "Many visitors"
+            ],
+            "zh": [
+              "有实际到访照片",
+              "有位置（GPS）验证",
+              "有同国游客的评价",
+              "经过运营方审核",
+              "信息是最近登记的",
+              "到访人数多"
+            ],
+            "ja": [
+              "実際の訪問写真がある",
+              "位置（GPS）認証がある",
+              "同じ国の旅行者の口コミがある",
+              "運営者が確認済み",
+              "最近登録された情報",
+              "訪問者が多い"
+            ],
+            "ko": [
+              "실제 방문 사진이 있다",
+              "위치(GPS) 인증이 되어 있다",
+              "같은 나라 여행자의 후기가 있다",
+              "운영자가 검증했다",
+              "최근에 등록된 정보다",
+              "방문자 수가 많다"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": {
+        "en": "6. Local products and airport pickup",
+        "zh": "6. 本地特产与机场取货",
+        "ja": "6. ローカル商品と空港受け取り",
+        "ko": "6. 로컬상품과 공항 픽업"
+      },
+      "description": null,
+      "questions": [
+        {
+          "code": "Q21",
+          "type": "cb",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "Which Jeju products have you bought or plan to buy on this trip? Choose all that apply.",
+            "zh": "这次旅行您已购买或打算购买哪些济州商品？（可多选）",
+            "ja": "今回の旅行で買った、または買う予定の済州の商品をすべて選んでください。",
+            "ko": "이번 여행에서 샀거나 살 예정인 제주 상품을 모두 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Cosmetics",
+              "Tangerine products (chocolate, cookies)",
+              "Traditional snacks such as omegi rice cake",
+              "Tea such as green tea",
+              "Traditional liquor and beer",
+              "Souvenirs",
+              "Small goods and character items",
+              "Did not buy anything"
+            ],
+            "zh": [
+              "化妆品",
+              "柑橘加工品（巧克力、饼干等）",
+              "传统小吃（如Omegi年糕）",
+              "茶（如绿茶）",
+              "传统酒和啤酒",
+              "纪念品",
+              "文创小物",
+              "没有购买"
+            ],
+            "ja": [
+              "化粧品",
+              "みかん加工品（チョコレート、お菓子など）",
+              "オメギ餅などの伝統菓子",
+              "お茶（緑茶など）",
+              "伝統酒とビール",
+              "お土産",
+              "雑貨とグッズ",
+              "購入していない"
+            ],
+            "ko": [
+              "화장품",
+              "감귤 가공품(초콜릿, 과자 등)",
+              "오메기떡 등 전통 간식",
+              "차(녹차 등)",
+              "전통주와 맥주",
+              "기념품",
+              "소품과 굿즈",
+              "사지 않았다"
+            ]
+          }
+        },
+        {
+          "code": "Q22",
+          "type": "mc",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "How much do you expect to spend on Jeju local products on this trip?",
+            "zh": "这次旅行您预计在济州本地特产上花费多少？",
+            "ja": "今回の旅行で済州のローカル商品に使う予定の金額はいくらですか。",
+            "ko": "이번 여행에서 제주 로컬상품에 쓸 예상 금액은 얼마입니까?"
+          },
+          "options": {
+            "en": [
+              "Nothing",
+              "Under 50,000 KRW",
+              "50,000 to 100,000 KRW",
+              "100,000 to 200,000 KRW",
+              "Over 200,000 KRW"
+            ],
+            "zh": [
+              "不花费",
+              "5万韩元以下",
+              "5万至10万韩元",
+              "10万至20万韩元",
+              "20万韩元以上"
+            ],
+            "ja": [
+              "使わない",
+              "5万ウォン未満",
+              "5万ウォン以上10万ウォン未満",
+              "10万ウォン以上20万ウォン未満",
+              "20万ウォン以上"
+            ],
+            "ko": [
+              "쓰지 않음",
+              "5만원 미만",
+              "5만원 이상 10만원 미만",
+              "10만원 이상 20만원 미만",
+              "20만원 이상"
+            ]
+          }
+        },
+        {
+          "code": "Q23",
+          "type": "cb",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "If you wanted to buy something but did not, why? Choose all that apply.",
+            "zh": "如果有想买却没买的情况，原因是什么？（可多选）",
+            "ja": "買いたかったのに買わなかった理由があればすべて選んでください。",
+            "ko": "사고 싶었지만 사지 못한 이유가 있다면 모두 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Luggage too heavy or bulky",
+              "Too expensive",
+              "Not enough product information",
+              "Did not know where to buy",
+              "My payment method was not accepted",
+              "Unsure about quality",
+              "Not applicable"
+            ],
+            "zh": [
+              "行李太重或太占地方",
+              "价格太贵",
+              "商品信息不足",
+              "不知道在哪里买",
+              "无法使用想要的支付方式",
+              "难以信任品质",
+              "不适用"
+            ],
+            "ja": [
+              "荷物が重い、またはかさばる",
+              "値段が高い",
+              "商品情報が足りない",
+              "どこで売っているか分からない",
+              "希望の決済手段が使えない",
+              "品質が信頼しにくい",
+              "該当なし"
+            ],
+            "ko": [
+              "짐이 무겁거나 부피가 크다",
+              "가격이 비싸다",
+              "상품 정보가 부족하다",
+              "어디서 파는지 모른다",
+              "원하는 결제수단을 쓸 수 없다",
+              "품질을 믿기 어렵다",
+              "해당 없음"
+            ]
+          }
+        },
+        {
+          "code": "Q24",
+          "type": "mc",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "If you could order in an app and pick up at the airport or cruise terminal when you leave, how would your shopping for local products change?",
+            "zh": "如果可以在App上提前下单，并在离境时于机场或邮轮码头取货，您购买本地特产的情况会有什么变化？",
+            "ja": "アプリで事前に注文し、出国時に空港やクルーズターミナルで受け取れるとしたら、ローカル商品の購入はどう変わりますか。",
+            "ko": "앱에서 미리 주문하고 출국할 때 공항이나 크루즈터미널에서 받을 수 있다면, 로컬상품 구매가 어떻게 달라지겠습니까?"
+          },
+          "options": {
+            "en": [
+              "I would buy much more",
+              "I would buy a little more",
+              "No change",
+              "I would buy less"
+            ],
+            "zh": [
+              "会多买很多",
+              "会多买一些",
+              "没有变化",
+              "反而会少买"
+            ],
+            "ja": [
+              "かなり多く買う",
+              "少し多く買う",
+              "変わらない",
+              "むしろ減る"
+            ],
+            "ko": [
+              "훨씬 더 많이 살 것이다",
+              "조금 더 살 것이다",
+              "변화 없다",
+              "오히려 덜 살 것이다"
+            ]
+          }
+        },
+        {
+          "code": "Q25",
+          "type": "mc",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "Where would you prefer to receive your products?",
+            "zh": "您希望在哪里取货？",
+            "ja": "商品はどこで受け取りたいですか。",
+            "ko": "상품을 받고 싶은 곳은 어디입니까?"
+          },
+          "options": {
+            "en": [
+              "Jeju International Airport departure area",
+              "Jeju International Cruise Terminal",
+              "My hotel",
+              "The shop",
+              "International shipping to my home"
+            ],
+            "zh": [
+              "济州国际机场出境大厅",
+              "济州国际邮轮码头",
+              "住宿处",
+              "销售门店",
+              "国际配送到家"
+            ],
+            "ja": [
+              "済州国際空港の出国エリア",
+              "済州国際クルーズターミナル",
+              "宿泊先",
+              "販売店舗",
+              "海外配送"
+            ],
+            "ko": [
+              "제주국제공항 출국장",
+              "제주국제크루즈터미널",
+              "숙소",
+              "판매 매장",
+              "해외 배송"
+            ]
+          }
+        },
+        {
+          "code": "Q26",
+          "type": "mc",
+          "required": true,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "How much would you pay per order for airport or port pickup?",
+            "zh": "机场或港口取货服务，每笔订单您最多愿意支付多少服务费？",
+            "ja": "空港や港での受け取りサービスに、注文1件あたりいくらまで払えますか。",
+            "ko": "공항이나 항만 수령 서비스에 주문 1건당 낼 수 있는 수수료는 얼마입니까?"
+          },
+          "options": {
+            "en": [
+              "Only if it is free",
+              "Up to 2,000 KRW",
+              "Up to 5,000 KRW",
+              "Up to 10,000 KRW",
+              "More than 10,000 KRW is fine"
+            ],
+            "zh": [
+              "仅在免费时使用",
+              "最多2,000韩元",
+              "最多5,000韩元",
+              "最多10,000韩元",
+              "超过10,000韩元也愿意"
+            ],
+            "ja": [
+              "無料の場合のみ",
+              "2,000ウォンまで",
+              "5,000ウォンまで",
+              "10,000ウォンまで",
+              "10,000ウォンを超えても利用する"
+            ],
+            "ko": [
+              "무료일 때만 이용",
+              "2,000원까지",
+              "5,000원까지",
+              "10,000원까지",
+              "10,000원이 넘어도 이용"
+            ]
+          }
+        },
+        {
+          "code": "Q27",
+          "type": "cb",
+          "required": true,
+          "other": true,
+          "max": null,
+          "text": {
+            "en": "Which payment methods do you mainly use while traveling? Choose all that apply.",
+            "zh": "旅行中您主要使用哪些支付方式？（可多选）",
+            "ja": "旅行中に主に使う決済手段をすべて選んでください。",
+            "ko": "여행 중 주로 쓰는 결제수단을 모두 골라 주세요."
+          },
+          "options": {
+            "en": [
+              "Alipay",
+              "WeChat Pay",
+              "Foreign credit card",
+              "Apple Pay or Google Pay",
+              "Cash",
+              "Korean debit or transit card"
+            ],
+            "zh": [
+              "支付宝",
+              "微信支付",
+              "境外信用卡",
+              "Apple Pay或Google Pay",
+              "现金",
+              "韩国借记卡或交通卡"
+            ],
+            "ja": [
+              "Alipay",
+              "WeChat Pay",
+              "海外クレジットカード",
+              "Apple PayまたはGoogle Pay",
+              "現金",
+              "韓国のデビットカードや交通カード"
+            ],
+            "ko": [
+              "알리페이",
+              "위챗페이",
+              "해외 신용카드",
+              "애플페이나 구글페이",
+              "현금",
+              "한국 체크카드나 교통카드"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": {
+        "en": "7. Final questions",
+        "zh": "7. 最后",
+        "ja": "7. 最後に",
+        "ko": "7. 마무리"
+      },
+      "description": null,
+      "questions": [
+        {
+          "code": "Q28",
+          "type": "para",
+          "required": false,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "What was the most inconvenient thing during your trip in Jeju?",
+            "zh": "在济州旅行中，您觉得最不方便的是什么？",
+            "ja": "済州旅行中に最も不便だったことは何ですか。",
+            "ko": "제주 여행 중 가장 불편했던 점은 무엇입니까?"
+          }
+        },
+        {
+          "code": "Q29",
+          "type": "para",
+          "required": false,
+          "other": false,
+          "max": null,
+          "text": {
+            "en": "What feature would you most like a travel app to have?",
+            "zh": "您希望旅行App一定要有哪些功能？",
+            "ja": "旅行アプリにぜひあってほしい機能があれば教えてください。",
+            "ko": "여행 앱에 꼭 있었으면 하는 기능이 있다면 적어 주세요."
+          }
+        }
+      ]
+    }
+  ]
+}
